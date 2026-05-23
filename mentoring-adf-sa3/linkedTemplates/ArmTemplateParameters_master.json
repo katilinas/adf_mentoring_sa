@@ -1,0 +1,57 @@
+{
+	"$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+	"contentVersion": "1.0.0.0",
+	"parameters": {
+		"factoryName": {
+			"value": "mentoring-adf-sa3"
+		},
+		"LS_SQL_CinemaTickets_password": {
+			"value": ""
+		},
+		"AzureBlobStorage1_properties_typeProperties_serviceEndpoint": {
+			"value": "https://azurementoringstoragesa2.blob.core.windows.net/"
+		},
+		"AzureDataLakeStorage1_properties_typeProperties_url": {
+			"value": "https://azurementdatalakesa2.dfs.core.windows.net/"
+		},
+		"AzureKeyVault1_properties_typeProperties_baseUrl": {
+			"value": "https://mentoring-key-vault-sa3.vault.azure.net/"
+		},
+		"LS_ABLB_AU_properties_typeProperties_serviceEndpoint": {
+			"value": "https://azurementoringausa1.blob.core.windows.net/"
+		},
+		"LS_ASQL_DataMart_properties_typeProperties_server": {
+			"value": "azure-mentoring-siarhei-antaniuk.database.windows.net"
+		},
+		"LS_ASQL_DataMart_properties_typeProperties_database": {
+			"value": "DataMart"
+		},
+		"LS_ASQL_DataMart_properties_typeProperties_userName": {
+			"value": "siarheiantaniuk"
+		},
+		"LS_ASQL_Movies_properties_typeProperties_server": {
+			"value": "azure-mentoring-siarhei-antaniuk.database.windows.net"
+		},
+		"LS_ASQL_Movies_properties_typeProperties_database": {
+			"value": "movies"
+		},
+		"LS_ASQL_Movies_properties_typeProperties_userName": {
+			"value": "siarheiantaniuk"
+		},
+		"LS_SQL_CinemaTickets_properties_typeProperties_server": {
+			"value": "localhost\\MSSQLSERVER2025"
+		},
+		"LS_SQL_CinemaTickets_properties_typeProperties_database": {
+			"value": "CinemaTickets"
+		},
+		"LS_SQL_CinemaTickets_properties_typeProperties_userName": {
+			"value": "adf_user"
+		},
+		"containerUri": {
+			"value": ""
+		},
+		"containerSasToken": {
+			"value": ""
+		}
+	}
+}
