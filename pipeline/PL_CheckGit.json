@@ -1,0 +1,17 @@
+{
+	"name": "PL_CheckGit",
+	"properties": {
+		"activities": [
+			{
+				"name": "GEN_Wait",
+				"type": "Wait",
+				"dependsOn": [],
+				"userProperties": [],
+				"typeProperties": {
+					"waitTimeInSeconds": 1
+				}
+			}
+		],
+		"annotations": []
+	}
+}
