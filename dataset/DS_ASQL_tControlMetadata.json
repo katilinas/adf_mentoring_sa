@@ -1,0 +1,114 @@
+{
+	"name": "DS_ASQL_tControlMetadata",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "LS_ASQL_Movies",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "AzureSqlTable",
+		"schema": [
+			{
+				"name": "ControlMetadataId",
+				"type": "int",
+				"precision": 10
+			},
+			{
+				"name": "SourceContainer",
+				"type": "nvarchar"
+			},
+			{
+				"name": "SourceFolder",
+				"type": "nvarchar"
+			},
+			{
+				"name": "SourceFileName",
+				"type": "nvarchar"
+			},
+			{
+				"name": "SourceFilePath",
+				"type": "nvarchar"
+			},
+			{
+				"name": "FileDelimiter",
+				"type": "nvarchar"
+			},
+			{
+				"name": "FileEncoding",
+				"type": "nvarchar"
+			},
+			{
+				"name": "EscapeCharacter",
+				"type": "nvarchar"
+			},
+			{
+				"name": "QuoteCharacter",
+				"type": "nvarchar"
+			},
+			{
+				"name": "HasHeaderRow",
+				"type": "bit"
+			},
+			{
+				"name": "FileFormat",
+				"type": "nvarchar"
+			},
+			{
+				"name": "DestinationSchemaName",
+				"type": "nvarchar"
+			},
+			{
+				"name": "DestinationTableName",
+				"type": "nvarchar"
+			},
+			{
+				"name": "DestinationFullName",
+				"type": "nvarchar"
+			},
+			{
+				"name": "DataIntegrationUnit",
+				"type": "int",
+				"precision": 10
+			},
+			{
+				"name": "ColumnMapping",
+				"type": "nvarchar"
+			},
+			{
+				"name": "CopyBehavior",
+				"type": "nvarchar"
+			},
+			{
+				"name": "AdditionalSettings",
+				"type": "nvarchar"
+			},
+			{
+				"name": "IsActive",
+				"type": "bit"
+			},
+			{
+				"name": "CreatedDate",
+				"type": "datetime2",
+				"scale": 3
+			},
+			{
+				"name": "CreatedBy",
+				"type": "nvarchar"
+			},
+			{
+				"name": "ModifiedDate",
+				"type": "datetime2",
+				"scale": 3
+			},
+			{
+				"name": "ModifiedBy",
+				"type": "nvarchar"
+			}
+		],
+		"typeProperties": {
+			"schema": "etl",
+			"table": "tControlMetadata"
+		}
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}
